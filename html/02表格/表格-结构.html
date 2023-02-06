@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <!-- table  包含    tr 
+            tr  包含    td -->
+    
+    <!-- border 
+            给加边框宽度 -->
+    
+    <!-- th是表头   
+            默认的加粗 -->
+   
+    <table border="2" width="400" heigth="400" >
+        
+        <!-- caption是表格标题 写在table后 -->
+        
+        <caption><b>水果行情</b></caption>
+       
+        <!-- 结构化标签，thead 
+                        tbody 
+                        tfoot       的意义只在于为编写代码的人提供结构观赏性，加不加在浏览器渲染下没区别 -->
+        <thead>
+            <tr>
+            <th>水果</th>
+            <th>重量</th>
+            <th>价格</th>
+            </tr>
+        </thead>
+        
+       <tbody>
+        <tr>
+            <td>苹果</td>
+            <td>5</td>
+            <td>3</td>
+        </tr>
+       
+        <tr>
+            <td>梨子</td>
+            <td>9</td>
+            <td>3</td>
+        </tr>
+       </tbody>
+        
+        <tfoot>
+            <tr>
+                <td>总结</td>
+                <td>香</td> 
+                <td>香</td>
+            </tr>
+        </tfoot>
+       
+    
+    </table>
+</body>
+</html>
